@@ -31,16 +31,22 @@ class Game:
         """Display the game"""
         return f"{self.away_team} @ {self.home_team} - Week {self.week}"
 
+    def __repr__(self):
+        return f"Game(id='{self.game_id}', away={self.away_team.name}, home={self.home_team.name}, week={self.week})"
+
+    def __eq__(self, other):
+        return isinstance(other, Game) and self.game_id == other.game_id
 
 
-"""# uncomment to test
-test_conf = Conference("Test Conference")
-test_div = Division("DIV1", "Test Division", test_conf)
-team1 = Team("HOM", "Home Team", "Home City", test_div)
-team2 = Team("AWY", "Away Team", "Away City", test_div)
-test_game = Game("GAME1", team1, team2, 1)
-print(test_game)
-print(test_game.is_played())
-test_game.set_result(21, 14)
-print(test_game.is_played())
-print(test_game.outcome)
+
+# uncomment to test
+#test_conf = Conference("Test Conference")
+#test_div = Division("DIV1", "Test Division", test_conf)
+#team1 = Team("HOM", "Home Team", "Home City", test_div)
+#team2 = Team("AWY", "Away Team", "Away City", test_div)
+#test_game = Game("GAME1", team1, team2, 1)
+#print(test_game)
+#print(test_game.is_played())
+#test_game.set_result(21, 14)
+#print(test_game.is_played())
+#print(test_game.outcome)
