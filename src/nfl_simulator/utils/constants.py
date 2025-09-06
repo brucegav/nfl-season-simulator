@@ -81,7 +81,7 @@ TIEBREAKER_CRITERIA = [
 
 
 #league conference structure
-AFC_TEAMS = ['BUF', 'MIA', 'NYJ', 'NE','BAL', 'PIT', 'CLE', 'CIN','BAL', 'PIT', 'CLE', 'CIN', 'BAL', 'PIT', 'CLE', 'CIN' ]
+AFC_TEAMS = ['BUF', 'MIA', 'NYJ', 'NE', 'BAL', 'PIT', 'CLE', 'CIN', 'HOU', 'JAX', 'IND', 'TEN', 'KC', 'DEN', 'LAC', 'LV']
 NFC_TEAMS = ['DAL', 'NYG', 'PHI', 'WAS','MIN', 'GB', 'DET', 'CHI', 'CAR', 'TB', 'ATL', 'NO', 'SEA', 'SF', 'LAR', 'ARI']
 
 #league division structure

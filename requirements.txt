@@ -1,0 +1,14 @@
+# NFL Season Simulator Requirements
+
+# Data collection
+nfl-data-py>=0.3.0
+
+# Data processing
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Machine Learning (for future ML implementation)
+scikit-learn>=1.3.0
+
+# Utilities
+python-dateutil>=2.8.0
