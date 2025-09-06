@@ -65,3 +65,20 @@ Thumbs.db
 # Project specific
 data/raw/
 *.log
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Data files
+data/
+*.csv
+*.json
+*.xlsx
+*.parquet
+
+# Large datasets
+*.h5
+*.hdf5
+*.pkl
+*.pickle
